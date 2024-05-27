@@ -1,0 +1,47 @@
+//core
+import React from 'react';
+
+//images
+import arrowDownSvg from '../../images/arrow-down.png';
+import arrowUpSvg from '../../images/arrow-up.png';
+
+// styles
+import './Transaction.scss'
+
+
+const Transaction = ({ transactions = [] }) => {
+    const transactionsJsx = transactions.map(({ sum, comment, operation, category, source, date, _id }) => (
+        <li key={_id} className='transaction-item'>
+            <div className='transaction-item__arrow-wrap'>
+                {operation === 'расходы' ?
+                    <img className='transaction-item__arrow' src={arrowDownSvg} alt="" />
+                    :
+                    <img className='transaction-item__arrow' src={arrowUpSvg} alt="" />
+                }
+            </div>
+
+            <div className='transaction-item__col'>
+                <p className='transaction-item__date'>{date}</p>
+                <p className='transaction-item__title'>{comment}</p>
+            </div>
+            <div className='transaction-item__col'>
+                {operation === 'расходы' ?
+                    <p className='transaction-item__price'>-{sum}</p>
+                    :
+                    <p className='transaction-item__price  green'>+{sum}</p>
+                }
+
+                <p className='transaction-item__category'>#{category}</p>
+                <p className='transaction-item__sources'>{source}</p>
+            </div>
+        </li>
+    ))
+
+    return (
+        <>
+            {transactionsJsx}
+        </>
+    );
+};
+
+export default Transaction;

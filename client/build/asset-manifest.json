@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96128931.chunk.css",
+    "main.js": "/static/js/main.ae027536.chunk.js",
+    "main.js.map": "/static/js/main.ae027536.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.00820fc5.chunk.js": "/static/js/2.00820fc5.chunk.js",
+    "static/js/2.00820fc5.chunk.js.map": "/static/js/2.00820fc5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0929b23b1ff12f7e18fbeea08b1180eb.js": "/precache-manifest.0929b23b1ff12f7e18fbeea08b1180eb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.96128931.chunk.css.map": "/static/css/main.96128931.chunk.css.map",
+    "static/js/2.00820fc5.chunk.js.LICENSE.txt": "/static/js/2.00820fc5.chunk.js.LICENSE.txt",
+    "static/media/arrow-big-right.svg": "/static/media/arrow-big-right.bc174e30.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.cc7b2b17.svg",
+    "static/media/CreateTransactionPage.scss": "/static/media/tag.2b9ed8da.svg",
+    "static/media/category.svg": "/static/media/category.57663764.svg",
+    "static/media/chart.svg": "/static/media/chart.7539fa18.svg",
+    "static/media/chevron-down.svg": "/static/media/chevron-down.8ebe8b51.svg",
+    "static/media/Transaction.scss": "/static/media/sources.ddc77a3b.svg",
+    "static/media/credit-card.png": "/static/media/credit-card.d9618088.png",
+    "static/media/ellipsis-horizontal.svg": "/static/media/ellipsis-horizontal.59c12fbf.svg",
+    "static/media/home.svg": "/static/media/home.8f23844b.svg",
+    "static/media/logo.svg": "/static/media/logo.64af5a29.svg",
+    "static/media/no-transactions.png": "/static/media/no-transactions.34ffe3db.png",
+    "static/media/pen.svg": "/static/media/pen.104bf02c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.00820fc5.chunk.js",
+    "static/css/main.96128931.chunk.css",
+    "static/js/main.ae027536.chunk.js"
+  ]
+}
